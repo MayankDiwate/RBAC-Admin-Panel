@@ -1,12 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import UserList from './components/UserList';
-import RoleList from './components/RoleList';
-import PermissionList from './components/PermissionList';
-import { RBACProvider } from './context/RBACContext';
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import Header from "./components/Header";
+import PermissionList from "./components/PermissionList";
+import RoleList from "./components/RoleList";
+import Sidebar from "./components/Sidebar";
+import UserList from "./components/UserList";
+import { RBACProvider } from "./context/RBACContext";
 
 function App() {
   return (
